@@ -53,7 +53,7 @@ const Hero = () => {
             </motion.div>
           </div>
           <div className="flex justify-center md:justify-start gap-6 mb-8">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-11 h-11 flex items-center justify-center rounded-full bg-white text-blue-600 text-xl transition-all duration-300 hover:-translate-y-2 hover:bg-blue-600 hover:text-white shadow-md">
+            <a href="https://www.linkedin.com/in/kamlesh-yadav-2019?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="w-11 h-11 flex items-center justify-center rounded-full bg-white text-blue-600 text-xl transition-all duration-300 hover:-translate-y-2 hover:bg-blue-600 hover:text-white shadow-md">
               <LinkedinIcon size={24} />
             </a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="w-11 h-11 flex items-center justify-center rounded-full bg-white text-blue-600 text-xl transition-all duration-300 hover:-translate-y-2 hover:bg-blue-600 hover:text-white shadow-md">
