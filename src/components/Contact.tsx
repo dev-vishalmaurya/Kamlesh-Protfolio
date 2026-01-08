@@ -7,6 +7,7 @@ const Contact = () => {
     alert('Thank you for your message! I will get back to you soon.');
   };
 
+  
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-slate-50 via-gray-50 to-blue-50 relative overflow-hidden">
       {/* Background decorative elements */}
