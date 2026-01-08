@@ -11,7 +11,7 @@ const Footer = () => {
           Thank you for visiting my portfolio. Feel free to reach out if you have any questions or opportunities.
         </p>
         <div className="flex justify-center gap-6 mb-8">
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 text-white transition-all duration-300 hover:bg-blue-600 hover:-translate-y-1">
+          <a href="https://www.linkedin.com/in/kamlesh-yadav-2019?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 text-white transition-all duration-300 hover:bg-blue-600 hover:-translate-y-1">
             <LinkedinIcon size={20} />
           </a>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 text-white transition-all duration-300 hover:bg-blue-600 hover:-translate-y-1">
