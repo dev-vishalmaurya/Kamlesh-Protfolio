@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { GithubIcon, LinkedinIcon, TwitterIcon, DownloadIcon } from './icons';
 import profileImage from '../assets/pro1.jpeg';
+import cv from '../assets/Kamlesh__Resume-1.pdf';
 
 const Hero = () => {
   const buttonVariants = {
@@ -47,9 +48,11 @@ const Hero = () => {
               variants={buttonVariants}
               whileHover="hover"
             >
-              <button className="border-2 border-blue-600 text-blue-600 font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:bg-blue-50 hover:-translate-y-1 flex items-center gap-2">
-                <DownloadIcon size={16} /> Download CV
-              </button>
+              <a href={cv} download="Kamlesh_Kumar_Yadav_Resume.pdf" className="w-full h-full flex items-center justify-center">
+                <button className="border-2 border-blue-600 text-blue-600 font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:bg-blue-50 hover:-translate-y-1 flex items-center gap-2">
+                  <DownloadIcon size={16} /> Download CV
+                </button>
+              </a>
             </motion.div>
           </div>
           <div className="flex justify-center md:justify-start gap-6 mb-8">
