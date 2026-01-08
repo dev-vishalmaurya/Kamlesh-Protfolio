@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { GithubIcon, LinkedinIcon, TwitterIcon, DownloadIcon } from './icons';
+import profileImage from '../assets/pro1.jpeg';
 
 const Hero = () => {
   const buttonVariants = {
@@ -70,7 +71,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80)' }} />
+            <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
             <div className="absolute w-full h-full rounded-full border-4 border-white" />
           </motion.div>
         </div>

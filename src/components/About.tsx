@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import profileImage from '../assets/about.jpeg';
 
 const About = () => {
   return (
@@ -58,7 +59,9 @@ const About = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80)' }} />
+              <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
+           
+              {/* <div className="absolute w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80)' }} /> */}
               <div className="absolute w-full h-full rounded-2xl" />
             </motion.div>
           </div>
